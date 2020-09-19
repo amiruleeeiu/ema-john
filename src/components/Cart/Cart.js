@@ -31,11 +31,13 @@ const Cart = (props) => {
 
     return (
         <div className="cart">
-            <h3>Cart Calculation</h3>
-            <p>Total : ${numberFormat(total)}</p>
-            <p>Shipping : ${numberFormat(shipping)}</p>
-            <p>Tax+vat : ${numberFormat(tax)}</p>
-            <p>Grand Total : ${numberFormat(total+shipping+tax)}</p>
+            <h2>Cart Calculation</h2>
+            <br/>
+            <h2 style={{fontWeight:'400'}}>Cart Products: {product.length}</h2>
+            <h3>Total : ${numberFormat(total)}</h3>
+            <h3>Shipping : ${numberFormat(shipping)}</h3>
+            <h3>Tax+vat : ${numberFormat(tax)}</h3>
+            <h3>Grand Total : ${numberFormat(total+shipping+tax)}</h3>
             {props.children}
         </div>
     );
