@@ -1,0 +1,38 @@
+.product{
+    display: flex;
+    box-shadow: 1px 1px 10px gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.product-img{
+    margin: 10px 30px;
+}
+.main-button{
+    background-color: orange;
+    color: black;
+    width: 120px;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main-button:hover{
+    color: white;
+    background-color: rgb(175, 167, 167);
+}
+.quantityChangeButton{
+    margin-left: 10px;
+    background-color: rgb(209, 196, 176);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.quantityChangeButton input{
+    padding: 7px;
+    cursor: pointer;
+    letter-spacing: var(--mainSpacing);background: var(--primaryColor);
+    border: 3px solid var(--primaryColor);
+    transition: var(--mainTransition);text-transform: uppercase;
+   
+    
+}
